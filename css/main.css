@@ -1,0 +1,61 @@
+html {
+  font-family: "Fredoka One", sans-serif;
+}
+
+main {
+  border-top: 6px solid #b3fbff;
+  border-bottom: 6px solid #b3fbff;
+  background: repeating-linear-gradient(-45deg, #d4fdff, #d4fdff 4px, #c9fcff 4px, #c9fcff 8px);
+}
+
+.wrapper {
+  max-width: 19em;
+}
+
+.text {
+  transform: translate(60px);
+}
+
+.tena {
+  color: #990073;
+  transform-origin: bottom left;
+  transform: rotate(-5deg);
+}
+
+.exa {
+  margin: 0 auto;
+  color: #c09;
+  transform-origin: bottom left;
+  transform: rotate(-3deg);
+}
+
+.btn-ghost {
+  border-color: #990073;
+  color: #c09;
+}
+
+.btn-ghost:hover {
+  border-color: #990073;
+  color: #c09;
+}
+
+.cherry {
+  position: absolute;
+  transform: translate(-80px, -920px) scale(.8);
+}
+
+.cone {
+  transform: translate(175px, -15px) scale(.8);
+}
+
+.vanilla {
+  transform: translate(175px, -835px) scale(.8);
+}
+
+.chocolate {
+  transform: translate(190px, -495px) scale(.8);
+}
+
+.mint {
+  transform: translate(175px, 130px) scale(.8);
+}
